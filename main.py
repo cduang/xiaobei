@@ -121,7 +121,7 @@ def get_param(coord):
 
 
 def sc_send(context):
-    baseUrl = 'https://sc.ftqq.com/'+SENDKEY+'.send'
+    baseUrl = 'https://sctapi.ftqq.com/'+SENDKEY+'.send'
     resp = None
     data = {
         "text": context,
